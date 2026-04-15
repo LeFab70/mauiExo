@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Astronomy.Pages.SunrisePage"
-             Title="SunrisePage">
+             Title="Soleil du jour">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Label">
@@ -30,9 +30,9 @@
             <Label Text="☀️" FontSize="72" Grid.Column="1" />
             <Label Text="🌇" FontSize="72" Grid.Column="2" />
 
-            <Label Text="Sunrise" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" />
-            <Label Text="Daylight" FontAttributes="Bold" Grid.Column="1" Grid.Row="1" />
-            <Label Text="Sunset" FontAttributes="Bold" Grid.Column="2" Grid.Row="1" />
+            <Label Text="Lever" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" />
+            <Label Text="Durée" FontAttributes="Bold" Grid.Column="1" Grid.Row="1" />
+            <Label Text="Coucher" FontAttributes="Bold" Grid.Column="2" Grid.Row="1" />
 
             <Label x:Name="lblSunrise" WidthRequest="100" FontAttributes="None" Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Center" />
             <Label x:Name="lblDaylight" WidthRequest="150" FontAttributes="None" Grid.Column="1" Grid.Row="2" HorizontalTextAlignment="Center" />

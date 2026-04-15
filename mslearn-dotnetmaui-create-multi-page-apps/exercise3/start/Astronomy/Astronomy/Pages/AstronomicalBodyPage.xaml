@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Astronomy.Pages.AstronomicalBodyPage"
-             Title="Astronomical Data">
+             Title="Fiche d’objet">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="textColor">White</Color>
@@ -36,9 +36,9 @@
         <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" />
         <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center" />
 
-        <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="2" HorizontalOptions="End" Text="Mass:" />
-        <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="3" HorizontalOptions="End" Text="Circumference:" />
-        <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="4" HorizontalOptions="End" Text="Age:" />
+        <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="2" HorizontalOptions="End" Text="Masse :" />
+        <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="3" HorizontalOptions="End" Text="Circonférence :" />
+        <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="4" HorizontalOptions="End" Text="Âge :" />
 
         <Label x:Name="lblMass" FontSize="Medium" Grid.Row="2" Grid.Column="1" />
         <Label x:Name="lblCircumference" FontSize="Medium" Grid.Row="3" Grid.Column="1" />
