@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Alignment"
@@ -7,22 +7,22 @@
     <Grid Padding="20" RowSpacing="10" RowDefinitions="50,50,*">
 
         <HorizontalStackLayout Grid.Row="0" Spacing="10">
-            <Label Text="Horizontal" VerticalOptions="Center" />
-            <Button Text="Start"  Clicked="OnHorizontalStartClicked"  />
-            <Button Text="Center" Clicked="OnHorizontalCenterClicked" />
-            <Button Text="End"    Clicked="OnHorizontalEndClicked"    />
-            <Button Text="Fill"   Clicked="OnHorizontalFillClicked"   />
+            <Label Text="Alignement horizontal" VerticalOptions="Center" />
+            <Button Text="Début"    Clicked="OnHorizontalStartClicked"  />
+            <Button Text="Centre"   Clicked="OnHorizontalCenterClicked" />
+            <Button Text="Fin"      Clicked="OnHorizontalEndClicked"    />
+            <Button Text="Remplir"  Clicked="OnHorizontalFillClicked"   />
         </HorizontalStackLayout>
 
         <HorizontalStackLayout  Grid.Row="1" Spacing="10">
-            <Label Text="Vertical" VerticalOptions="Center" />
-            <Button Text="Start"  Clicked="OnVerticalStartClicked"  />
-            <Button Text="Center" Clicked="OnVerticalCenterClicked" />
-            <Button Text="End"    Clicked="OnVerticalEndClicked"    />
-            <Button Text="Fill"   Clicked="OnVerticalFillClicked"   />
+            <Label Text="Alignement vertical" VerticalOptions="Center" />
+            <Button Text="Début"    Clicked="OnVerticalStartClicked"  />
+            <Button Text="Centre"   Clicked="OnVerticalCenterClicked" />
+            <Button Text="Fin"      Clicked="OnVerticalEndClicked"    />
+            <Button Text="Remplir"  Clicked="OnVerticalFillClicked"   />
         </HorizontalStackLayout>
 
-        <Label Grid.Row="2" FontSize="25" x:Name="target" BackgroundColor="Silver" Text="Hello" />
+        <Label Grid.Row="2" FontSize="25" x:Name="target" BackgroundColor="Silver" Text="Bonjour depuis mon exemple" />
 
     </Grid>
 
