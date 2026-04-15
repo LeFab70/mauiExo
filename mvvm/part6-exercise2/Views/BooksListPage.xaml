@@ -7,15 +7,29 @@
              x:DataType="vm:BookListViewModel"
              Title="Livres - Fabrice"
              BindingContext="{x:Static local:App.MainViewModel}">
-    <ListView ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook, Mode=OneWayToSource}" Margin="10" ItemTapped="ListView_ItemTapped">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Title}" x:DataType="vm:BookViewModel">
-                    <TextCell.ContextActions>
-                        <MenuItem Text="Supprimer" IsDestructive="True" Clicked="MenuItem_Clicked" />
-                    </TextCell.ContextActions>
-                </TextCell>
+    <CollectionView ItemsSource="{Binding Books}"
+                    SelectedItem="{Binding SelectedBook, Mode=OneWayToSource}"
+                    SelectionMode="Single"
+                    Margin="10"
+                    SelectionChanged="CollectionView_SelectionChanged">
+        <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="vm:BookViewModel">
+                <SwipeView>
+                    <SwipeView.RightItems>
+                        <SwipeItems>
+                            <SwipeItem Text="Supprimer"
+                                       BackgroundColor="Red"
+                                       Command="{Binding DeleteBookCommand, Source={x:Static local:App.MainViewModel}}"
+                                       CommandParameter="{Binding}" />
+                        </SwipeItems>
+                    </SwipeView.RightItems>
+
+                    <VerticalStackLayout Padding="10">
+                        <Label Text="{Binding Title}"
+                               FontSize="16" />
+                    </VerticalStackLayout>
+                </SwipeView>
             </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
 </ContentPage>

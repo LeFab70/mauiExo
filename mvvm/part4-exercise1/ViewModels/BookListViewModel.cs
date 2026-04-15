@@ -5,6 +5,14 @@ namespace BookCatalog.ViewModels;
 
 public class BookListViewModel: ObservableObject
 {
+    private BookViewModel? _selectedBook;
+
+    public BookViewModel? SelectedBook
+    {
+        get => _selectedBook;
+        set => SetProperty(ref _selectedBook, value);
+    }
+
     public ObservableCollection<BookViewModel> Books { get; set; }
 
     public BookListViewModel() =>

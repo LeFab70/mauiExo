@@ -7,15 +7,17 @@
              x:DataType="vm:BookListViewModel"
              Title="Livres - Fabrice"
              BindingContext="{x:Static local:App.MainViewModel}">
-    <ListView ItemsSource="{Binding Books}" Margin="10" ItemTapped="ListView_ItemTapped">
-        <ListView.ItemTemplate>
+    <CollectionView ItemsSource="{Binding Books}"
+                    SelectedItem="{Binding SelectedBook, Mode=OneWayToSource}"
+                    SelectionMode="Single"
+                    Margin="10"
+                    SelectionChanged="CollectionView_SelectionChanged">
+        <CollectionView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding Title}" x:DataType="vm:BookViewModel">
-                    <TextCell.ContextActions>
-                        <MenuItem Text="Supprimer" IsDestructive="True" Clicked="MenuItem_Clicked" />
-                    </TextCell.ContextActions>
-                </TextCell>
+                <Grid Padding="10" x:DataType="vm:BookViewModel">
+                    <Label Text="{Binding Title}" FontSize="16" />
+                </Grid>
             </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
 </ContentPage>

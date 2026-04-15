@@ -4,26 +4,38 @@
              xmlns:local="clr-namespace:TipCalculator"
              x:Class="TipCalculator.MainPage">
 
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="40" Spacing="10">
 
-        <Label Text="Montant de l’addition" />
-        <Entry x:Name="billInput" Placeholder="Saisis un montant (ex: 24,90)" Keyboard="Numeric" />
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Montant de l’addition" WidthRequest="100" VerticalOptions="Center" />
+            <Entry x:Name="billInput" Placeholder="Saisis un montant (ex: 24,90)" Keyboard="Numeric" />
+        </HorizontalStackLayout>
 
-        <Label Text="Pourboire" />
-        <Label x:Name="tipOutput" Text="0.00" />
+        <HorizontalStackLayout Margin="0,20,0,0" Spacing="10">
+            <Label Text="Pourboire" WidthRequest="100" />
+            <Label x:Name="tipOutput" Text="0.00" />
+        </HorizontalStackLayout>
 
-        <Label Text="Total à payer" />
-        <Label x:Name="totalOutput" Text="0.00" />
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Total à payer" WidthRequest="100" />
+            <Label x:Name="totalOutput" Text="0.00" />
+        </HorizontalStackLayout>
 
-        <Label Text="Taux de pourboire" />
-        <Label x:Name="tipPercent" Text="15%" />
+        <HorizontalStackLayout VerticalOptions="End" Spacing="10">
+            <Label Text="Taux de pourboire" WidthRequest="100" />
+            <Label x:Name="tipPercent" Text="15%" />
+        </HorizontalStackLayout>
         <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15" />
 
-        <Button Text="Standard (15%)" Clicked="OnNormalTip" />
-        <Button Text="Généreux (20%)" Clicked="OnGenerousTip" />
+        <HorizontalStackLayout Margin="0,20,0,0" Spacing="10">
+            <Button Text="Standard (15%)" Clicked="OnNormalTip" WidthRequest="150" HorizontalOptions="Center" />
+            <Button Text="Généreux (20%)" Clicked="OnGenerousTip" WidthRequest="150" HorizontalOptions="Center" />
+        </HorizontalStackLayout>
 
-        <Button x:Name="roundDown" Text="Arrondir en dessous" />
-        <Button x:Name="roundUp"   Text="Arrondir au dessus" />
+        <HorizontalStackLayout Margin="0,20,0,0" Spacing="10">
+            <Button x:Name="roundDown" Text="Arrondir en dessous" WidthRequest="150" HorizontalOptions="Center" />
+            <Button x:Name="roundUp"   Text="Arrondir au dessus" WidthRequest="150" HorizontalOptions="Center" />
+        </HorizontalStackLayout>
 
     </VerticalStackLayout>
 

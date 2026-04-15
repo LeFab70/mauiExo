@@ -1,7 +1,19 @@
 namespace Astronomy.Pages;
 
+[QueryProperty(nameof(AstroName), "astroName")]
 public partial class AstronomicalBodyPage : ContentPage
 {
+    string astroName = "moon";
+
+    public string AstroName
+    {
+        get => astroName;
+        set
+        {
+            astroName = value;
+            UpdateAstroBodyUI(astroName);
+        }
+    }
 
     public AstronomicalBodyPage()
     {

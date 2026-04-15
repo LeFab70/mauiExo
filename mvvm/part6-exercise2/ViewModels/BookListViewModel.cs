@@ -16,8 +16,13 @@ public class BookListViewModel: ObservableObject
 
     public ObservableCollection<BookViewModel> Books { get; set; }
 
-    public BookListViewModel() =>
+    public ICommand DeleteBookCommand { get; private set; }
+
+    public BookListViewModel()
+    {
         Books = [];
+        DeleteBookCommand = new Command<BookViewModel>(DeleteBook);
+    }
 
     public async Task RefreshBooks()
     {

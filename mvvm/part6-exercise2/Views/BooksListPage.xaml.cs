@@ -7,15 +7,14 @@ public partial class BooksListPage : ContentPage
 		InitializeComponent();
 	}
 
-    private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+    private async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        await Navigation.PushAsync(new Views.BookDetailPage());
-    }
+        if (e.CurrentSelection.Count == 0)
+            return;
 
-    private void MenuItem_Clicked(object sender, EventArgs e)
-    {
-        MenuItem menuItem = (MenuItem)sender;
-        ViewModels.BookViewModel book = (ViewModels.BookViewModel)menuItem.BindingContext;
-        App.MainViewModel?.DeleteBook(book);
+        await Navigation.PushAsync(new Views.BookDetailPage());
+
+        // Deselect
+        ((CollectionView)sender).SelectedItem = null;
     }
 }

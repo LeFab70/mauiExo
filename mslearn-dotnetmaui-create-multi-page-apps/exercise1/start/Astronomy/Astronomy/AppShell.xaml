@@ -4,9 +4,25 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Astronomy.Pages"
-    Title="Astronomy - Fabrice">
+    Title="Astronomy - Fabrice"
+    FlyoutIcon="moon.png">
 
-    <ShellContent
-        ContentTemplate="{DataTemplate local:MoonPhasePage}"/>
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="100" BackgroundColor="DarkSlateBlue">
+            <Image Source="moon.png" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Phase lunaire - Fabrice" Icon="moon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:MoonPhasePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Soleil du jour - Fabrice" Icon="sun.png">
+        <ShellContent ContentTemplate="{DataTemplate local:SunrisePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="À propos - Fabrice" Icon="question.png">
+        <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+    </FlyoutItem>
 
 </Shell>
