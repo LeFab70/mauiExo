@@ -3,7 +3,8 @@
     x:Class="Astronomy.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Astronomy.Pages">
+    xmlns:local="clr-namespace:Astronomy.Pages"
+    Title="Observatoire - Fabrice">
 
     <Shell.FlyoutHeader>
         <Grid HeightRequest="100" BackgroundColor="DarkSlateBlue">
@@ -11,7 +12,7 @@
         </Grid>
     </Shell.FlyoutHeader>
     
-    <FlyoutItem Title="Mon mini observatoire" Icon="moon.png">
+    <FlyoutItem Title="Mon mini observatoire - Fabrice" Icon="moon.png">
         <ShellContent Title="Lune" Icon="moon.png"
                 ContentTemplate="{DataTemplate local:MoonPhasePage}" />
         <ShellContent Title="Soleil" Icon="sun.png"
@@ -20,7 +21,7 @@
             ContentTemplate="{DataTemplate local:AstronomicalBodiesPage}"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="À propos" Icon="question.png">
+    <FlyoutItem Title="À propos - Fabrice" Icon="question.png">
         <ShellContent
             ContentTemplate="{DataTemplate local:AboutPage}"/>
     </FlyoutItem>

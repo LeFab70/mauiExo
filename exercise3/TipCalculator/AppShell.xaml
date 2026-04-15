@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Tip calc (exemple perso)"
+        Title="Tip calc (exemple perso) - Fabrice"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

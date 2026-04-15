@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Calculateur de pourboire"
+        Title="Calculateur de pourboire - Fabrice"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

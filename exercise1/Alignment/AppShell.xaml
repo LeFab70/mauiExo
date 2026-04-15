@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Démo d’alignement"
+        Title="Démo d’alignement - Fabrice"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

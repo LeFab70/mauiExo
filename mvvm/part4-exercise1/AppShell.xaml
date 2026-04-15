@@ -6,10 +6,10 @@
     xmlns:local="clr-namespace:MovieCatalog"
     xmlns:view="clr-namespace:MovieCatalog.Views"
     Shell.FlyoutBehavior="Disabled"
-    Title="Ma bibliothèque">
+    Title="Ma bibliothèque - Fabrice">
 
     <ShellContent
-        Title="Livres"
+        Title="Livres - Fabrice"
         ContentTemplate="{DataTemplate view:MoviesListPage}"
         Route="MovieListPage" />
 
