@@ -1,32 +1,32 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 
 namespace MovieCatalog.ViewModels;
 
-public class MovieListViewModel: ObservableObject
+public class BookListViewModel: ObservableObject
 {
-    private MovieViewModel? _selectedMovie;
+    private BookViewModel? _selectedBook;
 
-    public MovieViewModel? SelectedMovie
+    public BookViewModel? SelectedBook
     {
-        get => _selectedMovie;
-        set => SetProperty(ref _selectedMovie, value);
+        get => _selectedBook;
+        set => SetProperty(ref _selectedBook, value);
     }
 
-    public ObservableCollection<MovieViewModel> Movies { get; set; }
+    public ObservableCollection<BookViewModel> Books { get; set; }
 
-    public MovieListViewModel() =>
-        Movies = [];
+    public BookListViewModel() =>
+        Books = [];
 
-    public async Task RefreshMovies()
+    public async Task RefreshBooks()
     {
-        IEnumerable<Models.Movie> moviesData = await Models.MoviesDatabase.GetMovies();
+        IEnumerable<Models.Book> booksData = await Models.BooksDatabase.GetBooks();
 
-        foreach (Models.Movie movie in moviesData)
-            Movies.Add(new MovieViewModel(movie));
+        foreach (Models.Book book in booksData)
+            Books.Add(new BookViewModel(book));
     }
 
-    public void DeleteMovie(MovieViewModel movie) =>
-        Movies.Remove(movie);
+    public void DeleteBook(BookViewModel book) =>
+        Books.Remove(book);
 }

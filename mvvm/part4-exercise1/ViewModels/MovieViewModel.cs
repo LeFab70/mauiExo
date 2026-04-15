@@ -1,12 +1,12 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace MovieCatalog.ViewModels;
 
-public class MovieViewModel: ObservableObject
+public class BookViewModel: ObservableObject
 {
     private string _title;
-    private string _studio;
-    private string _director;
+    private string _author;
+    private string _publisher;
     private DateOnly _year;
 
     public string Title
@@ -15,16 +15,16 @@ public class MovieViewModel: ObservableObject
         set => SetProperty(ref _title, value);
     }
 
-    public string Studio
+    public string Author
     {
-        get => _studio;
-        set => SetProperty(ref _studio, value);
+        get => _author;
+        set => SetProperty(ref _author, value);
     }
 
-    public string Director
+    public string Publisher
     {
-        get => _director;
-        set => SetProperty(ref _director, value);
+        get => _publisher;
+        set => SetProperty(ref _publisher, value);
     }
 
     public DateOnly Year
@@ -33,11 +33,11 @@ public class MovieViewModel: ObservableObject
         set => SetProperty(ref _year, value);
     }
 
-    public MovieViewModel(Models.Movie movie)
+    public BookViewModel(Models.Book book)
     {
-        _title = movie.Title;
-        _studio = movie.Studio;
-        _director = movie.Director;
-        _year = new DateOnly(movie.Year, 1, 1);
+        _title = book.Title;
+        _author = book.Author;
+        _publisher = book.Publisher;
+        _year = new DateOnly(book.Year, 1, 1);
     }
 }

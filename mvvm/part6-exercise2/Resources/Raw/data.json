@@ -1,182 +1,182 @@
 [
     {
-      "title": "Back to the Future",
-      "studio": "Universal Pictures",
-      "year": 1985,
-      "director": "Robert Zemeckis"
+      "title": "L’Étranger",
+      "author": "Albert Camus",
+      "publisher": "Gallimard",
+      "year": 1942
     },
     {
-      "title": "The Goonies",
-      "studio": "Warner Bros",
-      "year": 1985,
-      "director": "Richard Donner"
+      "title": "Le Petit Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "publisher": "Reynal & Hitchcock",
+      "year": 1943
     },
     {
-      "title": "Top Gun",
-      "studio": "Paramount Pictures",
-      "year": 1986,
-      "director": "Tony Scott"
+      "title": "1984",
+      "author": "George Orwell",
+      "publisher": "Secker & Warburg",
+      "year": 1949
     },
     {
-      "title": "Ferris Bueller's Day Off",
-      "studio": "Paramount Pictures",
-      "year": 1986,
-      "director": "John Hughes"
+      "title": "Le Comte de Monte-Cristo",
+      "author": "Alexandre Dumas",
+      "publisher": "Pétion",
+      "year": 1844
     },
     {
-      "title": "Die Hard",
-      "studio": "20th Century Fox",
-      "year": 1988,
-      "director": "John McTiernan"
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "publisher": "A. Lacroix, Verboeckhoven & Cie",
+      "year": 1862
     },
     {
-      "title": "Rain Man",
-      "studio": "United Artists",
-      "year": 1988,
-      "director": "Barry Levinson"
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "publisher": "Ballantine Books",
+      "year": 1953
     },
     {
-      "title": "Indiana Jones and the Last Crusade",
-      "studio": "Paramount Pictures",
-      "year": 1989,
-      "director": "Steven Spielberg"
+      "title": "Harry Potter à l’école des sorciers",
+      "author": "J. K. Rowling",
+      "publisher": "Bloomsbury",
+      "year": 1997
     },
     {
-      "title": "Batman",
-      "studio": "Warner Bros",
-      "year": 1989,
-      "director": "Tim Burton"
+      "title": "Le Seigneur des anneaux (La Communauté de l’anneau)",
+      "author": "J. R. R. Tolkien",
+      "publisher": "Allen & Unwin",
+      "year": 1954
     },
     {
-      "title": "Home Alone",
-      "studio": "20th Century Fox",
-      "year": 1990,
-      "director": "Chris Columbus"
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "publisher": "Chilton Books",
+      "year": 1965
     },
     {
-      "title": "Pretty Woman",
-      "studio": "Touchstone Pictures",
-      "year": 1990,
-      "director": "Garry Marshall"
+      "title": "La Peste",
+      "author": "Albert Camus",
+      "publisher": "Gallimard",
+      "year": 1947
     },
     {
-      "title": "Terminator 2: Judgment Day",
-      "studio": "TriStar Pictures",
-      "year": 1991,
-      "director": "James Cameron"
+      "title": "Le Meilleur des mondes",
+      "author": "Aldous Huxley",
+      "publisher": "Chatto & Windus",
+      "year": 1932
     },
     {
-      "title": "The Silence of the Lambs",
-      "studio": "Orion Pictures",
-      "year": 1991,
-      "director": "Jonathan Demme"
+      "title": "Le Procès",
+      "author": "Franz Kafka",
+      "publisher": "Verlag Die Schmiede",
+      "year": 1925
     },
     {
-      "title": "Aladdin",
-      "studio": "Walt Disney Pictures",
-      "year": 1992,
-      "director": "Ron Clements, John Musker"
+      "title": "La Nuit des temps",
+      "author": "René Barjavel",
+      "publisher": "Presses de la Cité",
+      "year": 1968
     },
     {
-      "title": "Reservoir Dogs",
-      "studio": "Miramax Films",
-      "year": 1992,
-      "director": "Quentin Tarantino"
+      "title": "L’Alchimiste",
+      "author": "Paulo Coelho",
+      "publisher": "HarperTorch",
+      "year": 1988
     },
     {
-      "title": "Jurassic Park",
-      "studio": "Universal Pictures",
-      "year": 1993,
-      "director": "Steven Spielberg"
+      "title": "Le Nom de la rose",
+      "author": "Umberto Eco",
+      "publisher": "Bompiani",
+      "year": 1980
     },
     {
-      "title": "Schindler's List",
-      "studio": "Universal Pictures",
-      "year": 1993,
-      "director": "Steven Spielberg"
+      "title": "Germinal",
+      "author": "Émile Zola",
+      "publisher": "Gil Blas",
+      "year": 1885
     },
     {
-      "title": "Forrest Gump",
-      "studio": "Paramount Pictures",
-      "year": 1994,
-      "director": "Robert Zemeckis"
+      "title": "Le Rouge et le Noir",
+      "author": "Stendhal",
+      "publisher": "Levavasseur",
+      "year": 1830
     },
     {
-      "title": "The Lion King",
-      "studio": "Walt Disney Pictures",
-      "year": 1994,
-      "director": "Roger Allers, Rob Minkoff"
+      "title": "Vingt mille lieues sous les mers",
+      "author": "Jules Verne",
+      "publisher": "Pierre-Jules Hetzel",
+      "year": 1870
     },
     {
-      "title": "Pulp Fiction",
-      "studio": "Miramax Films",
-      "year": 1994,
-      "director": "Quentin Tarantino"
+      "title": "Notre-Dame de Paris",
+      "author": "Victor Hugo",
+      "publisher": "Gosselin",
+      "year": 1831
     },
     {
-      "title": "The Shawshank Redemption",
-      "studio": "Columbia Pictures",
-      "year": 1994,
-      "director": "Frank Darabont"
+      "title": "Le Père Goriot",
+      "author": "Honoré de Balzac",
+      "publisher": "Werdet",
+      "year": 1835
     },
     {
-      "title": "Toy Story",
-      "studio": "Pixar Animation Studios",
-      "year": 1995,
-      "director": "John Lasseter"
+      "title": "Les Fleurs du mal",
+      "author": "Charles Baudelaire",
+      "publisher": "Poulet-Malassis et de Broise",
+      "year": 1857
     },
     {
-      "title": "Braveheart",
-      "studio": "Paramount Pictures",
-      "year": 1995,
-      "director": "Mel Gibson"
+      "title": "Candide",
+      "author": "Voltaire",
+      "publisher": "Cramer",
+      "year": 1759
     },
     {
-      "title": "Se7en",
-      "studio": "New Line Cinema",
-      "year": 1995,
-      "director": "David Fincher"
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "publisher": "Revue de Paris",
+      "year": 1856
     },
     {
-      "title": "Apollo 13",
-      "studio": "Universal Pictures",
-      "year": 1995,
-      "director": "Ron Howard"
+      "title": "Bel-Ami",
+      "author": "Guy de Maupassant",
+      "publisher": "Victor Havard",
+      "year": 1885
     },
     {
-      "title": "Heat",
-      "studio": "Warner Bros",
-      "year": 1995,
-      "director": "Michael Mann"
+      "title": "Le Horla",
+      "author": "Guy de Maupassant",
+      "publisher": "Ollendorff",
+      "year": 1887
     },
     {
-      "title": "Casino",
-      "studio": "Universal Pictures",
-      "year": 1995,
-      "director": "Martin Scorsese"
+      "title": "À la recherche du temps perdu",
+      "author": "Marcel Proust",
+      "publisher": "Grasset",
+      "year": 1913
     },
     {
-      "title": "Clueless",
-      "studio": "Paramount Pictures",
-      "year": 1995,
-      "director": "Amy Heckerling"
+      "title": "Le Tour du monde en quatre-vingts jours",
+      "author": "Jules Verne",
+      "publisher": "Pierre-Jules Hetzel",
+      "year": 1872
     },
     {
-      "title": "Jumanji",
-      "studio": "TriStar Pictures",
-      "year": 1995,
-      "director": "Joe Johnston"
+      "title": "Le Dernier Jour d’un condamné",
+      "author": "Victor Hugo",
+      "publisher": "Charles Gosselin",
+      "year": 1829
     },
     {
-      "title": "GoldenEye",
-      "studio": "United Artists",
-      "year": 1995,
-      "director": "Martin Campbell"
+      "title": "La Planète des singes",
+      "author": "Pierre Boulle",
+      "publisher": "Julliard",
+      "year": 1963
     },
     {
-      "title": "Die Hard with a Vengeance",
-      "studio": "20th Century Fox",
-      "year": 1995,
-      "director": "John McTiernan"
+      "title": "Le Vieil Homme et la mer",
+      "author": "Ernest Hemingway",
+      "publisher": "Charles Scribner's Sons",
+      "year": 1952
     }
   ]

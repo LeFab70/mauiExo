@@ -1,3 +1,3 @@
-﻿namespace MovieCatalog.Models;
+namespace MovieCatalog.Models;
 
-public record Movie(string Title, string Studio, string Director, int Year);
+public record Book(string Title, string Author, string Publisher, int Year);

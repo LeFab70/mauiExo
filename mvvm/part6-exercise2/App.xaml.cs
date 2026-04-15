@@ -1,8 +1,8 @@
-﻿namespace MovieCatalog;
+namespace MovieCatalog;
 
     public partial class App : Application
     {
-	public static ViewModels.MovieListViewModel? MainViewModel { get; private set; }
+	public static ViewModels.BookListViewModel? MainViewModel { get; private set; }
 
 	public App()
 	{
@@ -15,7 +15,7 @@
 		var window = new Window(new AppShell());
 
 		MainViewModel = new();
-		MainViewModel.RefreshMovies().ContinueWith((s) => { });
+		MainViewModel.RefreshBooks().ContinueWith((s) => { });
 
 		return window;
 	}

@@ -1,8 +1,8 @@
-﻿namespace MovieCatalog.Models;
+namespace MovieCatalog.Models;
 
-internal static class MoviesDatabase
+internal static class BooksDatabase
 {
-    public async static Task<IEnumerable<Movie>> GetMovies()
+    public async static Task<IEnumerable<Book>> GetBooks()
     {
         using Stream stream = await FileSystem.OpenAppPackageFileAsync("data.json");
 
@@ -11,8 +11,8 @@ internal static class MoviesDatabase
             PropertyNameCaseInsensitive = true,
         };
 
-        IEnumerable<Movie>? movies = await System.Text.Json.JsonSerializer.DeserializeAsync<List<Movie>>(stream, options);
+        IEnumerable<Book>? books = await System.Text.Json.JsonSerializer.DeserializeAsync<List<Book>>(stream, options);
 
-        return movies ?? [];
+        return books ?? [];
     }
 }

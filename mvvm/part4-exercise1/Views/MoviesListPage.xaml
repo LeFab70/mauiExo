@@ -4,15 +4,15 @@
              xmlns:vm="clr-namespace:MovieCatalog.ViewModels"
              xmlns:local="clr-namespace:MovieCatalog"
              x:Class="MovieCatalog.Views.MoviesListPage"
-             x:DataType="vm:MovieListViewModel"
-             Title="Movies"
+             x:DataType="vm:BookListViewModel"
+             Title="Livres"
              BindingContext="{x:Static local:App.MainViewModel}">
-    <ListView ItemsSource="{Binding Movies}" Margin="10" ItemTapped="ListView_ItemTapped">
+    <ListView ItemsSource="{Binding Books}" Margin="10" ItemTapped="ListView_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding Title}" x:DataType="vm:MovieViewModel">
+                <TextCell Text="{Binding Title}" x:DataType="vm:BookViewModel">
                     <TextCell.ContextActions>
-                        <MenuItem Text="Delete" IsDestructive="True" Clicked="MenuItem_Clicked" />
+                        <MenuItem Text="Supprimer" IsDestructive="True" Clicked="MenuItem_Clicked" />
                     </TextCell.ContextActions>
                 </TextCell>
             </DataTemplate>
