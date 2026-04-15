@@ -1,4 +1,4 @@
-namespace MovieCatalog.Models;
+namespace BookCatalog.Models;
 
 internal static class BooksDatabase
 {

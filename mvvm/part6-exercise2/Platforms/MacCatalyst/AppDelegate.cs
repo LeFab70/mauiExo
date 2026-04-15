@@ -1,6 +1,6 @@
-﻿using Foundation;
+using Foundation;
 
-namespace MovieCatalog
+namespace BookCatalog
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

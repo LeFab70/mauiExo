@@ -1,6 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging;
 
-namespace MovieCatalog;
+namespace BookCatalog;
 
 public static class MauiProgram
 {

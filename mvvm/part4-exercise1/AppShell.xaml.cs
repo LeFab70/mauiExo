@@ -1,4 +1,4 @@
-﻿namespace MovieCatalog;
+namespace BookCatalog;
 
 public partial class AppShell : Shell
 {

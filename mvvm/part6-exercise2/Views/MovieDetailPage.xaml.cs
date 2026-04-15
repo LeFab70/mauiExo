@@ -1,4 +1,4 @@
-namespace MovieCatalog.Views;
+namespace BookCatalog.Views;
 
 public partial class MovieDetailPage : ContentPage
 {

@@ -2,7 +2,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 
-namespace MovieCatalog.ViewModels;
+namespace BookCatalog.ViewModels;
 
 public class BookListViewModel: ObservableObject
 {

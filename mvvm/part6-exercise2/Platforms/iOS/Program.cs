@@ -1,7 +1,7 @@
-﻿using ObjCRuntime;
+using ObjCRuntime;
 using UIKit;
 
-namespace MovieCatalog
+namespace BookCatalog
 {
     public class Program
     {

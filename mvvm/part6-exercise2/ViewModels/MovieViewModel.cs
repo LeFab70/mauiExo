@@ -1,6 +1,6 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace MovieCatalog.ViewModels;
+namespace BookCatalog.ViewModels;
 
 public class BookViewModel: ObservableObject
 {

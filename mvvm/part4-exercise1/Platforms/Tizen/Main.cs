@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace MovieCatalog
+namespace BookCatalog
 {
     internal class Program : MauiApplication
     {
