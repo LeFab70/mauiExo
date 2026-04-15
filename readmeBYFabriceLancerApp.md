@@ -74,8 +74,5 @@ dotnet build -f net9.0-android
 dotnet build -t:Run -f net9.0-android
 ```
 
-## Notes (si tu “ne vois pas” l’app)
 
-- Après un `Run`, l’app peut rester en arrière-plan. Ouvre-la manuellement sur le device.
-- Les noms possibles côté Android: **Ma bibliothèque - Fabrice** / **Ma bibliothèque** / **BookCatalog**.
 
