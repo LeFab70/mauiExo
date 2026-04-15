@@ -10,7 +10,7 @@
 
     <ShellContent
         Title="Livres - Fabrice"
-        ContentTemplate="{DataTemplate view:MoviesListPage}"
-        Route="MovieListPage" />
+        ContentTemplate="{DataTemplate view:BooksListPage}"
+        Route="BookListPage" />
 
 </Shell>

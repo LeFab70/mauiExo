@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:BookCatalog.ViewModels"
              xmlns:local="clr-namespace:BookCatalog"
-             x:Class="BookCatalog.Views.MoviesListPage"
+             x:Class="BookCatalog.Views.BooksListPage"
              x:DataType="vm:BookListViewModel"
              Title="Livres - Fabrice"
              BindingContext="{x:Static local:App.MainViewModel}">
-    <ListView ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook, Mode=OneWayToSource}" Margin="10" ItemTapped="ListView_ItemTapped">
+    <ListView ItemsSource="{Binding Books}" Margin="10" ItemTapped="ListView_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Title}" x:DataType="vm:BookViewModel">

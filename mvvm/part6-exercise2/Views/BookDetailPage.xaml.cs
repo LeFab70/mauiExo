@@ -1,8 +1,8 @@
 namespace BookCatalog.Views;
 
-public partial class MovieDetailPage : ContentPage
+public partial class BookDetailPage : ContentPage
 {
-    public MovieDetailPage()
+    public BookDetailPage()
     {
         BindingContext = App.MainViewModel?.SelectedBook;
         InitializeComponent();

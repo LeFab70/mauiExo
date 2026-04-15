@@ -1,8 +1,8 @@
 namespace BookCatalog.Views;
 
-public partial class MoviesListPage : ContentPage
+public partial class BooksListPage : ContentPage
 {
-	public MoviesListPage()
+	public BooksListPage()
 	{
 		InitializeComponent();
 	}
@@ -10,7 +10,7 @@ public partial class MoviesListPage : ContentPage
     private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
     {
 		ViewModels.BookViewModel book = (ViewModels.BookViewModel)e.Item;
-		await Navigation.PushAsync(new Views.MovieDetailPage(book));
+		await Navigation.PushAsync(new Views.BookDetailPage(book));
     }
 
     private void MenuItem_Clicked(object sender, EventArgs e)
